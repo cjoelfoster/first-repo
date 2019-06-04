@@ -9,6 +9,7 @@ Rules of the game `Snake`
 
 ## How to Play
 1. How to Move
+
    The snake begins on the left side of the screen moving toward the right in a straight line.
    
    Use the arrow keys on the keyboard to change the direction the snake is moving.
