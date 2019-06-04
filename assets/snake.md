@@ -1,4 +1,4 @@
-Rules of the game `Snake`
+Rules of the game *Snake*
 =========================
 
 ## How to Quit
