@@ -34,11 +34,12 @@ import time
 #        print(greeting + " " + n + "!")
 
 #Make snake moving across the screen
-sky = "\n\n\n\n\n\n\n\n\n\n"
-snake = "--=ooooooooo<:>="
-trail = "_"
+sky = "\n"
+snake = "---=oooooooooooo<:>="
+trail = " "
+ground = "_"
 
 for i in range(0,40):
     subprocess.call("clear")
-    print(sky + i * trail + snake)
-    time.sleep(0.2)
+    print(i * sky + i * trail + snake)
+    time.sleep(0.1)
