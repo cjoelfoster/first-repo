@@ -18,9 +18,16 @@
 #If 'Q' was pressed, exit the simulation.
 
 import sys
-print(sys.version_info)
+#print(sys.version_info)
 
-#greeting = "Hello"
-#print(greeting)
-n = input(": ")
-print(n)
+#Test Input and Output to command line
+#n = ""
+#while(n!='Q'):
+#    greeting = "Hello"
+#    print(greeting)
+#    n = input("Please type your name and press 'Enter': ")
+#    if(n=="Q"):
+#        print("Goodbye!")
+#    else:
+#        print(greeting + " " + n + "!")
+
