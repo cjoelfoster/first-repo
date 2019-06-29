@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 #Read-Eval-Print Loop for a bash version of snake
 
@@ -18,5 +18,9 @@
 #If 'Q' was pressed, exit the simulation.
 
 import sys
+print(sys.version_info)
 
-print("Press a key")
+#greeting = "Hello"
+#print(greeting)
+n = input(": ")
+print(n)
