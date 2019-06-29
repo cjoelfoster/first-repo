@@ -19,6 +19,8 @@
 
 import sys
 #print(sys.version_info)
+import subprocess
+import time
 
 #Test Input and Output to command line
 #n = ""
@@ -31,3 +33,12 @@ import sys
 #    else:
 #        print(greeting + " " + n + "!")
 
+#Make snake moving across the screen
+sky = "\n\n\n\n\n\n\n\n\n\n"
+snake = "--=ooooooooo<:>="
+trail = "_"
+
+for i in range(0,40):
+    subprocess.call("clear")
+    print(sky + i * trail + snake)
+    time.sleep(0.2)
