@@ -33,13 +33,30 @@ import time
 #    else:
 #        print(greeting + " " + n + "!")
 
-#Make snake moving across the screen
-sky = "\n"
-snake = "---=oooooooooooo<:>="
-trail = " "
-ground = "_"
+#Make snake move across the screen
+#sky = "\n"
+#snake = "---=oooooooooooo<:>="
+#trail = " "
+#ground = "_"
 
-for i in range(0,40):
-    subprocess.call("clear")
-    print(i * sky + i * trail + snake)
-    time.sleep(0.1)
+#for i in range(0,100):
+#    subprocess.call("clear")
+#    print(20 * sky + i * trail + snake)
+#    time.sleep(0.1)
+
+#Demonstrate object moving around screen with arrow keys
+#Generate Box
+top = "*"
+side = "|"
+bottom = "*"
+inside = " "
+
+height = 30
+
+width = 100
+width_inside = width - 2
+
+subprocess.call("clear")
+print(width * top + "\n" +
+      height * (side + width_inside * inside + side + "\n") +
+      width * bottom + "\n")
