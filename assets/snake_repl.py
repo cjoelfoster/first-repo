@@ -46,17 +46,42 @@ import time
 
 #Demonstrate object moving around screen with arrow keys
 #Generate Box
-top = "*"
-side = "|"
-bottom = "*"
-inside = " "
+#top = "*"
+#side = "|"
+#bottom = "*"
+#inside = " "
 
-height = 30
+#height = 30
 
-width = 100
-width_inside = width - 2
+#width = 100
+#width_inside = width - 2
 
-subprocess.call("clear")
-print(width * top + "\n" +
-      height * (side + width_inside * inside + side + "\n") +
-      width * bottom + "\n")
+#subprocess.call("clear")
+#print(width * top + "\n" +
+#      height * (side + width_inside * inside + side + "\n") +
+#      width * bottom + "\n")
+
+#1. Input
+def get_user_input():
+    key_press = input()
+    return key_press
+
+
+def test_get_user_input():
+    key = get_user_input()
+    print(key)
+
+
+#2. 
+def 
+
+
+
+def write_display(display: str):
+    print(display)
+
+
+def clear_display():
+    subprocess.call("clear")
+
+
